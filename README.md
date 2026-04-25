@@ -94,12 +94,14 @@ Install once. Use in every session after that. One hat. That it. 🤠
 | Cowboy mode | ✅ | ✅ |
 | `/cowboy` command | ✅ | ✅ (`$cowboy`) |
 | Auto-activate per session¹ | ✅ | ✅¹ |
-| Mode switching (lite/full/ultra) | ✅ | ✅ |
+| Mode switching (lite/full/ultra) | ✅ | ✅* |
 | `cowboy-commit` sub-skill | ✅ | ✅ |
 | `cowboy-review` sub-skill | ✅ | ✅ |
 | `cowboy-help` sub-skill | ✅ | ✅ |
 
 > ¹ Auto-activation works inside this repo via `.codex/hooks.json` (Codex) and the plugin manifest (Claude Code). To make it always-on in another repo, copy the same hook file there.
+>
+> `*` In Codex, reliable level switching uses dedicated skills: `$cowboy-lite`, `$cowboy-full`, `$cowboy-ultra`. Plain `$cowboy` stays default full mode.
 
 ---
 
@@ -107,7 +109,8 @@ Install once. Use in every session after that. One hat. That it. 🤠
 
 **Trigger with:**
 - `/cowboy` (Claude Code)
-- `$cowboy` (Codex)
+- `$cowboy` (Codex, default full)
+- `$cowboy-lite` / `$cowboy-full` / `$cowboy-ultra` (Codex, explicit level)
 - `"talk like cowboy"`
 - `"cowboy mode"`
 - `"less tokens please"`
@@ -120,9 +123,9 @@ Install once. Use in every session after that. One hat. That it. 🤠
 
 | Level | Trigger | What it do | Savings |
 |-------|---------|-----------|---------|
-| 🪶 Lite | `/cowboy lite` | Drop filler, keep grammar. Cowboy-flavored but professional | ~30-40% |
-| 🤠 Full *(default)* | `/cowboy` or `/cowboy full` | Drop articles, fragments, full cowboy register | ~60-65% |
-| 🔥 Ultra | `/cowboy ultra` | Maximum compression. Telegraphic cowboy. | ~75-80% |
+| 🪶 Lite | `/cowboy lite` or `$cowboy-lite` | Drop filler, keep grammar. Cowboy-flavored but professional | ~30-40% |
+| 🤠 Full *(default)* | `/cowboy`, `/cowboy full`, or `$cowboy-full` | Drop articles, fragments, full cowboy register | ~60-65% |
+| 🔥 Ultra | `/cowboy ultra` or `$cowboy-ultra` | Maximum compression. Telegraphic cowboy. | ~75-80% |
 
 Level sticks until you change it or session ends.
 

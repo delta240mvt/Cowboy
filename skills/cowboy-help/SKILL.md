@@ -14,13 +14,16 @@ description: >
 ║                                                          ║
 ║  ACTIVATE:                                               ║
 ║    /cowboy           — start (default = full)            ║
-║    $cowboy           — start (Codex)                     ║
+║    $cowboy           — Codex start (default = full)      ║
 ║    "talk like cowboy" — natural language trigger         ║
 ║                                                          ║
 ║  LEVELS:                                                 ║
 ║    /cowboy lite      — drop filler, keep grammar (~35%)  ║
+║    $cowboy-lite      — Codex lite                        ║
 ║    /cowboy full      — fragments, full cowboy (~65%)     ║
+║    $cowboy-full      — Codex full                        ║
 ║    /cowboy ultra     — telegraphic, max compression (~75%)║
+║    $cowboy-ultra     — Codex ultra                       ║
 ║                                                          ║
 ║  STOP:                                                   ║
 ║    /cowboy off       — exit cowboy mode                  ║

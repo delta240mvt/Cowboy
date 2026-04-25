@@ -11,6 +11,18 @@
       "path": "SKILL.md"
     },
     {
+      "name": "cowboy-lite",
+      "path": "skills/cowboy-lite/SKILL.md"
+    },
+    {
+      "name": "cowboy-full",
+      "path": "skills/cowboy-full/SKILL.md"
+    },
+    {
+      "name": "cowboy-ultra",
+      "path": "skills/cowboy-ultra/SKILL.md"
+    },
+    {
       "name": "cowboy-commit",
       "path": "skills/cowboy-commit/SKILL.md"
     },
