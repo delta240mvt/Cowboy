@@ -1,0 +1,26 @@
+{
+  "name": "cowboy",
+  "version": "1.0.0",
+  "description": "Cowboy-style output compression — ~60-75% fewer tokens, 100% accuracy, full hat",
+  "author": "delta240mvt",
+  "license": "MIT",
+  "homepage": "https://github.com/delta240mvt/Cowboy",
+  "skills": [
+    {
+      "name": "cowboy",
+      "path": "SKILL.md"
+    },
+    {
+      "name": "cowboy-commit",
+      "path": "skills/cowboy-commit/SKILL.md"
+    },
+    {
+      "name": "cowboy-review",
+      "path": "skills/cowboy-review/SKILL.md"
+    },
+    {
+      "name": "cowboy-help",
+      "path": "skills/cowboy-help/SKILL.md"
+    }
+  ]
+}

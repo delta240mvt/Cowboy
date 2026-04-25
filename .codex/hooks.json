@@ -1,0 +1,9 @@
+{
+  "sessionStart": [
+    {
+      "type": "skill",
+      "skill": "cowboy",
+      "description": "Auto-activate cowboy mode on every Codex session in this repo"
+    }
+  ]
+}
