@@ -1,26 +1,6 @@
 <div align="center">
 
-<pre>
-   ██████╗ ██████╗ ██╗    ██╗██████╗  ██████╗ ██╗   ██╗
-  ██╔════╝██╔═══██╗██║    ██║██╔══██╗██╔═══██╗╚██╗ ██╔╝
-  ██║     ██║   ██║██║ █╗ ██║██████╔╝██║   ██║ ╚████╔╝
-  ██║     ██║   ██║██║███╗██║██╔══██╗██║   ██║  ╚██╔╝
-  ╚██████╗╚██████╔╝╚███╔███╔╝██████╔╝╚██████╔╝   ██║
-   ╚═════╝ ╚═════╝  ╚══╝╚══╝ ╚═════╝  ╚═════╝    ╚═╝
-                    M  O  D  E
-</pre>
-
-<pre>
-                 ████
-      ████       ████       ████
-      ████       ████       ████
-      ██████████████████████████
-                 ████
-                 ████
-           ╔═════╝  ╚═════╗
-           ╚═════════════╝
-              🤠  cowboy
-</pre>
+# 🤠 COWBOY MODE 🌵
 
 **why use many word when short word do trick — with spurs**
 
@@ -31,7 +11,7 @@
 
 [Before/After](#before--after) • [Install](#install) • [Levels](#intensity-levels) • [Skills](#cowboy-skills) • [Benchmarks](#benchmarks)
 
-🤠 **Cowboy Mode**  ·  Talk less, ride more
+*Talk less, ride more.* 🐴
 
 </div>
 
